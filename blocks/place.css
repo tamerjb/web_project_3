@@ -1,27 +1,29 @@
 .place {
     display: grid;
     grid-template-columns: 460px 1fr;
-    gap: 48px 40px;
-    grid-template-areas: "title author"
-        "image info"
-        "button info";
-
+    grid-gap: 48px 40px;
+    grid-template-areas:
+        "title website"
+        "image description"
+        "button description";
+    margin-bottom: 92px;
 }
 
 .place__title {
     margin: 0;
+    margin-top: 92px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     grid-area: title;
 }
 
-.place__author {
-    grid-area: author;
+.place__website {
+    grid-area: website;
     align-self: end;
 }
 
-.place__author-txt {
+.place__text {
     margin: 0;
     margin-bottom: 8px;
     font-size: 12px;
@@ -31,7 +33,7 @@
     color: #aaaaaa;
 }
 
-.place__author-name {
+.place__artist {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
@@ -39,21 +41,25 @@
 
 .place__image {
     grid-area: image;
+    width: 100%;
 }
 
-.place__info {
-    grid-area: info;
-
+.place__description {
+    grid-area: description;
 }
 
-.place__info-paragraph {
+.place__paragraph {
     margin: 0;
     margin-bottom: 25px;
     font-size: 18px;
     line-height: 29px;
 }
 
-.place__buy {
+.place__paragraph:last-child {
+    margin: 0;
+}
+
+.place__link {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -66,4 +72,8 @@
     text-decoration: none;
     max-width: 248px;
     text-align: center;
+}
+
+.place__button:hover {
+    background: #0063d2;
 }
