@@ -1,3 +1,5 @@
+@import url(../vendor/fonts/font.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/logo.css);
 @import url(../blocks/page.css);
 @import url(../blocks/lead.css);
@@ -5,5 +7,5 @@
 @import url(../blocks/intro.css);
 @import url(../blocks/photo-grid.css);
 @import url(../blocks/places.css);
+@import url(../blocks/place.css);
 @import url(../blocks/footer.css);
-@import url(../fonts/font.css);
