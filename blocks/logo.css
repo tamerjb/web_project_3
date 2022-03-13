@@ -1,5 +1,15 @@
 .logo {
-    max-width: 270px;
-    max-height: 70px;
-    margin: 34px 505px 90px 505px;
+    width: 270px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 34px 0 92px 0;
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    .logo {
+        width: 200px;
+        height: 51.85px;
+        margin: 20px auto 50.15px;
+    }
 }

@@ -24,11 +24,29 @@
     max-width: 720px;
     margin: 0 auto;
     padding: 0 0 64px 0;
+
 }
 
 .lead__image {
-    max-width: 984px;
+    width: 100%;
     padding: 0 0 92px 0;
-    margin: 0 auto;
-    filter: grayscale();
+    margin: 0;
+    filter: grayscale(1);
 }
+
+@media screen and (max-width:960px) {
+    .lead {
+        max-width: 720px;
+    }
+
+    .lead__title {
+        max-width: 720px;
+
+    }
+
+    .lead__subtitle {
+        margin: 32px auto 36px;
+    }
+}
+
+@media screen and (max-width:600px) {}

@@ -59,3 +59,19 @@
 .cover__button:hover {
     background: #0063d2;
 }
+
+@media screen and (max-width:960px) {
+    .cover {
+        max-width: 768px;
+        min-height: 746px;
+
+    }
+
+    .cover__title {
+        margin-top: 246px;
+    }
+
+    .cover__button {
+        margin-bottom: 246px;
+    }
+}

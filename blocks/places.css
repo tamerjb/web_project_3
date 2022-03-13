@@ -13,3 +13,15 @@
 .places__list-item {
     margin-bottom: 80px;
 }
+
+@media screen and (max-width:960px) {
+    .places {
+        max-width: 720px;
+
+    }
+
+    .places__list-item {
+        margin-bottom: 72px;
+    }
+
+}

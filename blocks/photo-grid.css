@@ -5,15 +5,28 @@
 
 .photo-grid__list {
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 92px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-gap: 16px;
+    gap: 16px;
     padding: 0 48px 0 48px;
 
 }
 
 .photo-grid__image {
     width: 100%;
+}
+
+@media screen and (max-width:960px) {
+    .photo-grid {
+        max-width: 720px;
+    }
+
+    .photo-grid__list {
+        margin-bottom: 88px;
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+        padding: 0 24px 0 24px;
+
+    }
 }
