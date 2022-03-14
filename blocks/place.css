@@ -1,9 +1,9 @@
 .place {
     display: grid;
     grid-template-columns: 460px 1fr;
-    grid-gap: 48px 40px;
+    gap: 48px 40px;
     grid-template-areas:
-        "title website"
+        "title info"
         "image description"
         "button description";
     margin-bottom: 92px;
@@ -17,8 +17,8 @@
     grid-area: title;
 }
 
-.place__website {
-    grid-area: website;
+.place__info {
+    grid-area: info;
     align-self: end;
 }
 
@@ -41,6 +41,8 @@
 .place__image {
     grid-area: image;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .place__description {
@@ -58,7 +60,7 @@
     margin: 0;
 }
 
-.place__link {
+.place__button {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -66,22 +68,24 @@
     background: #0278fe;
     border-radius: 4px;
     color: #fff;
-    transition-duration: 1s;
-    cursor: pointer;
     text-decoration: none;
-    max-width: 248px;
     text-align: center;
+    max-width: 248px;
+    max-height: 48px;
+    box-sizing: border-box;
+    transition-duration: 1.5s;
+
 }
 
 .place__button:hover {
-    background: #0063d2;
+    background: #0063D2;
 }
 
 @media screen and (max-width:960px) {
     .place {
         grid-template-columns: 340px 1fr;
         grid-gap: 46px 28px;
-
+        margin: 72px 16px;
     }
 
     .place__title {
@@ -96,4 +100,44 @@
     }
 
 
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .place {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        grid-template-areas:
+            "title"
+            "info"
+            "image"
+            "description"
+            "button";
+        margin: 0 0 50px;
+    }
+
+
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .place__info {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .place__description {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .place__button {
+        margin: 0 16px 0 16px;
+        max-width: 288px;
+    }
 }

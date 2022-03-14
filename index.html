@@ -16,7 +16,9 @@
 
 <body>
   <div class="page">
-    <img class="logo" alt="Logo" src="./images/logo.png">
+    <header class="header">
+      <img class="header__logo" alt="Logo" src="./images/logo.png">
+    </header>
     <section class="lead">
       <h1 class="lead__title">From Homeland to Homeland</h1>
       <p class="lead__subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</p>
@@ -38,6 +40,7 @@
         No matter where
         you're from, we're glad that you're our neighbor.</p>
     </section>
+
     <sectoin class="photo-grid">
       <ul class="photo-grid__list">
         <li class="photo-grid__list-item">
@@ -74,13 +77,14 @@
         </li>
       </ul>
     </sectoin>
+
     <section class="places">
-      <section class="places">
+      <div class="places">
         <ul class="places__list">
           <li class="places__item">
             <div class="place">
-              <h3 class="place__title">Kyiv, Ukraine</h3>
-              <div class="place__website">
+              <h2 class="place__title">Kyiv, Ukraine</h2>
+              <div class="place_info">
                 <p class="place__text">ARTIST</p>
                 <p class="place__artist">Natalia Dolgushina, content producer</p>
               </div>
@@ -104,18 +108,14 @@
                   of the right one.
                 </p>
               </div>
-              <div class="place__button">
-                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                  class="place__link">
-                  Buy this artwork as NFT
-                </a>
-              </div>
+              <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                class="place__button">Buy this artwork as NFT</a>
             </div>
           </li>
           <li class="places__item">
             <div class="place">
-              <h3 class="place__title">Cricieth, Wales</h3>
-              <div class="place__website">
+              <h2 class="place__title">Cricieth, Wales</h2>
+              <div class="place_info">
                 <p class="place__text">Artist</p>
                 <p class="place__artist">Steffan Warren, lead editor</p>
                 <p class="place__artist">Kseniya Glagoleva, project manager</p>
@@ -140,18 +140,14 @@
                   to hold the office of Prime Minister of the UK.
                 </p>
               </div>
-              <div class="place__button">
-                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                  class="place__link">
-                  Buy this artwork as NFT
-                </a>
-              </div>
+              <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                class="place__button">Buy this artwork as NFT</a>
             </div>
           </li>
           <li class="places__item">
             <div class="place">
-              <h3 class="place__title">Berea, USA</h3>
-              <div class="place__website">
+              <h2 class="place__title">Berea, USA</h2>
+              <div class="place_info">
                 <p class="place__text">ARTIST</p>
                 <p class="place__artist">Travis Turner, author and editor</p>
               </div>
@@ -175,18 +171,14 @@
                   student receives a full-tuition scholarship.
                 </p>
               </div>
-              <div class="place__button">
-                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                  class="place__link">
-                  Buy this artwork as NFT
-                </a>
-              </div>
+              <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                class="place__button">Buy this artwork as NFT</a>
             </div>
           </li>
           <li class="places__item">
             <div class="place">
-              <h3 class="place__title">Muramvya, Burundi</h3>
-              <div class="place__website">
+              <h2 class="place__title">Muramvya, Burundi</h2>
+              <div class="place_info">
                 <p class="place__text">ARTIST</p>
                 <p class="place__artist">Grevisse Kenguruka, tech editor</p>
               </div>
@@ -217,18 +209,14 @@
                   the country.
                 </p>
               </div>
-              <div class="place__button">
-                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                  class="place__link">
-                  Buy this artwork as NFT
-                </a>
-              </div>
+              <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                class="place__button">Buy this artwork as NFT</a>
             </div>
           </li>
           <li class="places__item">
             <div class="place">
-              <h3 class="place__title">Tel Aviv</h3>
-              <div class="place__website">
+              <h2 class="place__title">Tel Aviv</h2>
+              <div class="place_info">
                 <p class="place__text">ARTIST</p>
                 <p class="place__artist">Tamer JB</p>
               </div>
@@ -246,34 +234,33 @@
                   and features an on-site excavation of 12th-century-B.C. ruins.
                 </p>
               </div>
-              <div class="place__button">
-                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                  class="place__link">
-                  Buy this artwork as NFT
-                </a>
-              </div>
+              <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                class="place__button">Buy this artwork as NFT</a>
             </div>
           </li>
         </ul>
-      </section>
-      <section class="cover">
-        <div class="cover__content">
-          <h3 class="cover__title">Visit us</h3>
-          <p class="cover__subtitle">
-            Year-round
-            <span class="cover__subtitle-paragraph">Practicum Art Gallery</span>
-            404 Tim Berners-Lee Ave
-          </p>
-          <a href="" class="cover__button">
-            Buy tickets
-          </a>
-        </div>
-      </section>
-      <footer class="footer">
-        <p class="footer__copyright">© 2022 JB Tamer</p>
-      </footer>
-  </div>
+      </div>
+    </section>
 
+    <section class="cover">
+      <div class="cover__content">
+        <h3 class="cover__title">Visit us</h3>
+        <p class="cover__subtitle">
+          Year-round
+          <span class="cover__subtitle-paragraph">Practicum Art Gallery</span>
+          404 Tim Berners-Lee Ave
+        </p>
+        <a href="" class="cover__button">
+          Buy tickets
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__copyright">© 2022 JB Tamer</p>
+    </footer>
+
+  </div>
 </body>
 
 </html>

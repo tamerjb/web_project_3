@@ -4,10 +4,18 @@
     line-height: 16px;
     text-align: center;
     padding: 92px 0 24px 0;
+
 }
 
 @media screen and (max-width: 960px) {
     .footer__copyright {
-        margin-top: 88px;
+        padding: 88px 0 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__copyright {
+        padding: 64px 0 24px;
+        line-height: 14px;
     }
 }
