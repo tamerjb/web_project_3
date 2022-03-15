@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-
 }
 
 .places__list-item {
@@ -19,15 +18,11 @@
         max-width: 720px;
         margin: 0;
         padding: 0;
-
     }
 
     .places__list-item {
         margin-bottom: 72px;
     }
-
-    /* fix this betwen the cover and the place section 768 */
-
 }
 
 @media screen and (max-width: 600px) {
@@ -38,4 +33,5 @@
     .places__item {
         margin-bottom: 50px;
     }
+
 }

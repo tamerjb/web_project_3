@@ -22,17 +22,16 @@
     align-self: end;
 }
 
-.place__text {
+.place__artist {
     margin: 0;
     margin-bottom: 8px;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.12em;
-    text-transform: uppercase;
     color: #aaaaaa;
 }
 
-.place__artist {
+.place__artist-txt {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
@@ -61,6 +60,10 @@
 }
 
 .place__button {
+    display: block;
+    max-width: 248px;
+    max-height: 48px;
+    box-sizing: border-box;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -70,11 +73,7 @@
     color: #fff;
     text-decoration: none;
     text-align: center;
-    max-width: 248px;
-    max-height: 48px;
-    box-sizing: border-box;
     transition-duration: 1.5s;
-
 }
 
 .place__button:hover {
@@ -96,15 +95,10 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
-
     }
-
-
 }
 
 @media screen and (max-width: 600px) {
-
-
     .place {
         grid-template-columns: 1fr;
         grid-gap: 30px;
@@ -114,10 +108,8 @@
             "image"
             "description"
             "button";
-        margin: 0 0 50px;
+        margin: 0 0 64px;
     }
-
-
 
     .place__title {
         font-size: 32px;
@@ -139,5 +131,13 @@
     .place__button {
         margin: 0 16px 0 16px;
         max-width: 288px;
+    }
+
+    .place__artist {
+        margin-left: 16px;
+    }
+
+    .place__artist-txt {
+        margin: 0 16px;
     }
 }

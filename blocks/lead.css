@@ -12,7 +12,6 @@
     margin: 0 auto;
     text-align: center;
     padding: 0 0 32px 0;
-
 }
 
 .lead__subtitle {
@@ -24,7 +23,6 @@
     max-width: 720px;
     margin: 0 auto;
     padding: 0 0 64px 0;
-
 }
 
 .lead__image {
@@ -46,7 +44,7 @@
 
     .lead__title {
         max-width: 720px;
-
+        padding: 0;
     }
 
     .lead__subtitle {

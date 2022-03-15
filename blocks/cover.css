@@ -23,7 +23,6 @@
     opacity: 0.8;
 }
 
-
 .cover__content {
     z-index: 1;
     position: relative;
@@ -78,7 +77,6 @@
     .cover {
         max-width: 768px;
         min-height: 746px;
-
     }
 
     .cover__title {
