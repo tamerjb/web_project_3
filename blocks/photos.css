@@ -1,6 +1,7 @@
 .photos {
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 0 48px;
+    padding: 0;
 }
 
 .photos__list {
