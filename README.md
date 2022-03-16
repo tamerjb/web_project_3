@@ -3,7 +3,6 @@
 * Intro  
 * Figma  
 * Skills
-* Images
   
 **Intro**    
   
@@ -16,14 +15,10 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 **Skills**
 * HTML5
 * CSS 
+* Figma
 * ADAPTIVE WEB DESGIN
 * GRID LAYOUT
 * FLEXBOX
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+
 
 Link to the project: https://tamerjb.github.io/web_project_3/
