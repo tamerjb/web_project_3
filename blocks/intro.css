@@ -54,6 +54,7 @@
 
     .intro__paragraph {
         margin: 0 auto;
+        width: 100%;
     }
 }
 
@@ -72,7 +73,6 @@
 
     .intro__quote {
         width: 100%;
-        margin: 0 auto;
         line-height: 30px;
         padding: 0;
     }
@@ -82,7 +82,4 @@
         margin: 10px auto 32px;
     }
 
-    .intro__paragraph {
-        width: 100%;
-    }
 }
