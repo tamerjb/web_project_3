@@ -30,6 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .cover__title {
@@ -42,16 +43,11 @@
 }
 
 .cover__subtitle {
-    margin-top: 0;
-    margin-bottom: 32px;
+    margin: 0;
     max-width: 280px;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-}
-
-.cover__subtitle-paragraph {
-    display: block;
 }
 
 .cover__button {
@@ -69,13 +65,14 @@
     text-decoration: none;
 }
 
+
 .cover__button:hover {
     background: #0063d2;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width: 960px) {
     .cover {
-        max-width: 768px;
+        width: 100%;
         min-height: 746px;
     }
 

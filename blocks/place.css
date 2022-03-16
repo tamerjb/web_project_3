@@ -7,7 +7,7 @@
         "title info"
         "image description"
         "button description";
-    margin-bottom: 92px;
+    margin: 0 auto;
 }
 
 .place__title {
@@ -21,6 +21,7 @@
 .place__info {
     grid-area: info;
     align-self: end;
+    margin: 0;
 }
 
 .place__artist {
@@ -30,6 +31,7 @@
     line-height: 15px;
     letter-spacing: 0.12em;
     color: #aaaaaa;
+    text-transform: uppercase;
 }
 
 .place__artist-txt {
@@ -72,9 +74,10 @@
     background: #0278fe;
     border-radius: 4px;
     color: #fff;
+    transition-duration: 1s;
     text-decoration: none;
     text-align: center;
-    transition-duration: 1.5s;
+
 }
 
 .place__button:hover {
@@ -85,7 +88,12 @@
     .place {
         grid-template-columns: 340px 1fr;
         grid-gap: 46px 28px;
-        margin: 72px 16px;
+        padding-bottom: 72px;
+
+    }
+
+    .place:last-child {
+        padding: 0;
     }
 
     .place__title {
@@ -94,10 +102,13 @@
     }
 
     .place__paragraph {
+        max-width: 352px;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 163%;
     }
 }
+
+
 
 @media screen and (max-width: 600px) {
     .place {
@@ -109,7 +120,7 @@
             "image"
             "description"
             "button";
-        margin: 0 0 64px;
+        padding-bottom: 50px;
     }
 
     .place__title {
@@ -117,11 +128,7 @@
         line-height: 35px;
         margin-left: 16px;
         margin-right: 16px;
-    }
-
-    .place__info {
-        margin-left: 16px;
-        margin-right: 16px;
+        max-width: 288px;
     }
 
     .place__description {
@@ -135,10 +142,15 @@
     }
 
     .place__artist {
-        margin-left: 16px;
+        max-width: 288px;
+        margin: 0 0 8px;
+    }
+
+    .place__info {
+        margin: 0 16px;
     }
 
     .place__artist-txt {
-        margin: 0 16px;
+        max-width: 288px;
     }
 }
